@@ -34,7 +34,7 @@ if(empty($_SESSION['ID'])){ header('Location: Baylogin.php');}
             ?>
             <form>
                 <div class="input-group col-xs-4 col-xs-offset-8">
-                    <input type="text" class="form-control" placeholder="Recherche" name="recherche" value=<?php echo $filtre ?>/>
+                    <input type="text" class="form-control" placeholder="Recherche" name="recherche" value=<?php echo $filtre ?>>
                   <div class="input-group-btn">
                     <button class="btn btn-default" type="submit">
                       <i class="glyphicon glyphicon-search"></i>
@@ -60,7 +60,7 @@ if(empty($_SESSION['ID'])){ header('Location: Baylogin.php');}
                 
             </div>
             </div>
-            <div class="col-xs-12"> <a href="ajoutFilm.php">Cliquez ici pour ajouter un film</a></div>
+            <div class="col-xs-12"> <a href="ajoutFilm.php">Ajouter un film</a></div>
     </body>
     <?php include 'BayFooter.php'; ?>
 </html>
