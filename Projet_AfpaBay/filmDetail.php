@@ -49,7 +49,7 @@ The following SQL statement selects all fields from "Customers" where country is
         
     </body>
     <div class="row col-xs-12"><?php echo '<a href ="modifFilm.php?titre='.$titre.'">Modifier les informations du film</a>'; ?></div>
-    <div class="row col-xs-12"><a href="filmk.php">Cliquez ici pour retourner au menu principal</a></div>
+    <div class="row col-xs-12"><a href="filmk.php">MENU principal</a></div>
     <?php include 'BayFooter.php'; ?>
 </html>
 
